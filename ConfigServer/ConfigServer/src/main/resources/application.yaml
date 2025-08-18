@@ -1,0 +1,12 @@
+server:
+  port: 8085
+spring:
+  application:
+    name: CONFIGSERVER
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/riktimmondal/Hotel-Service-Configuration.git
+          clone-on-start: true
+          default-label: main
