@@ -12,3 +12,4 @@
 - Rating Service
 - Service Registry
 - DBMS
+- Circuit Breaker Pattern using Resilience4j
