@@ -13,3 +13,5 @@
 - Service Registry
 - DBMS
 - Circuit Breaker Pattern using Resilience4j
+- Retries using Resilience4j
+- Rate limiter using Resilience4j
