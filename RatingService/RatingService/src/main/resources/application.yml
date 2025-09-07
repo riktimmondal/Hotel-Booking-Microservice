@@ -8,6 +8,12 @@ spring:
 
   application:
     name: RATINGSERVICE
+  
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: https://dev-ybep4ljr28q257j5.us.auth0.com/
 
 server:
   port: 8083

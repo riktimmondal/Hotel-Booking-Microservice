@@ -16,7 +16,13 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
-    show-sql: true 
+    show-sql: true
+    
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: https://dev-ybep4ljr28q257j5.us.auth0.com/
 
 # eureka: 
 #   instance:
